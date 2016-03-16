@@ -1,0 +1,26 @@
+{
+  "name": "mean-stack-dev",
+  "version": "0.1.0",
+  "description": "Skeletal setup for MEAN stack apps",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/powebdev/mean-stack-dev.git"
+  },
+  "author": "Po Tong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/powebdev/mean-stack-dev/issues"
+  },
+  "homepage": "https://github.com/powebdev/mean-stack-dev#readme"
+}
