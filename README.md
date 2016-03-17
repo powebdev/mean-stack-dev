@@ -4,33 +4,32 @@ Skeletal setup for making apps using MEAN stack
 ##Required software
 =====
 1. Node.js
-2. Mocha
-3. nodemon
-4. node-inspector
+2. nodemon
+3. node-inspector
+4. webpack
 
 ##File structure
 =====
 .
-|---app
-|  |---models
-|  |  |---model.js <database model for CRUD operation>
-|  |---routes.js
-|---config
-|  |---db.js
-|---node_modules
-|---public <front end stuff>
-|  |---css
-|  |---js
-|  |---img
-|  |---views
+|---<app>
+|---<node_modules>
+|---<public>
+|  |---<img>
+|  |---<scripts>
+|  |---<styles>
+|  |---<templates>
 |  |---index.html
-|---scss <sass stuff>
-|  |---styles.scss
-|---.bowerrc
-|---bower.json
-|---package.json
+|---<src>
+|  |---<api>
+|  |  |---index.js
+|  |---<models>
+|  |---<scss>
+|  |---database.js
+|  |---server.js
 |---gulpfile.js
-|---server.js
+|---package.json
+|---README.md
+|---webpack.config.js
 
 
 ##Start app
@@ -49,9 +48,6 @@ the --debug-brk flag allow the node-inspector to catch the debugger flag in our 
 2. server app
 3. data storage
 4. frontend app
-5. testing
 6. gulp automation
 ..*look for file change
-..*compile css
 ..*minify css, js, html
-..*testing?

@@ -4,8 +4,12 @@
   "description": "Skeletal setup for MEAN stack apps",
   "main": "server.js",
   "dependencies": {
+    "angular": "^1.5.1",
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
     "method-override": "^2.3.5",
     "mongoose": "^4.4.7"
   },
